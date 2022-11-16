@@ -27,9 +27,7 @@ public class PizzaList
       System.out.println("*************************************************");
       System.out.print("Nummer på pizzaen: ");
       int x = s.nextInt();
-// Her giver vi mulighed for at vælge hvilken pizza vi gerne vil have (nr. i rækken).     
       Pizza test = pizzaList.get(x);
-// Her laver vi en variabel som kalder på pizzaList arraylisten som kan kalde på den nr. pizza man vil have. 
       return test;       
    }
    

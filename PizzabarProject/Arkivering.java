@@ -21,9 +21,7 @@ public class Arkivering
          PrintWriter pw = new PrintWriter(bw);
          
          FileReader fr = new FileReader(filepath);
-         BufferedReader br = new BufferedReader(fr);
-         
-// Ligesom når man trykker 4 så vil man her kopiere alt dataen over i et andet dokument. 
+         BufferedReader br = new BufferedReader(fr); 
          
          while((currentLine = br.readLine()) != null)
          {
